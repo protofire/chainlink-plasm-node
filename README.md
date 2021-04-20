@@ -4,13 +4,13 @@ This folder contains all files required to run a Chainlink Node for the Plasm Du
 
 ## Contract Deployment
 
-All Chainlink v6 contracts required (including LinkToken, Oracle, AccessControlledAggregator and EACAggregatorProxy) have been tested, verified and working on Dusty. For the test we did an ETH/USD price aggregator with only one Oracle node. You can view the already deployed ones here
+All Chainlink v6 contracts required (including LinkToken, Oracle, AccessControlledAggregator and EACAggregatorProxy) have been tested, verified and working on Dusty. For the test we did an ETH/USD price aggregator with only one Oracle node.
+
+We cannot currently include explorer URLs since the Dusty explorer doesn't show EVM contracts in a human-readable fashion. You, however, can use the contracts by calling these addresses:
 
 ```
-LinkToken - 0xD3896BDD73E61a4275e27F660dDF095522F0a1D3
-Oracle - 0xa5f33f7d680E596d2f13D1e12434C4de8204C678
-AccessControlAggregator - 0xDcaD20CA76D7F0df84e50CdD80AeA43cEEA980fc
-EACAggregatorProxy - 0x8581D1D42b5Cb8d6fA2A901ebbdD0BD4f19aB9f6
+AccessControlledAggregator: 0x8230BA7b0897BF4073Ea054520E2E75AC006f5A1
+LinkToken: 0x02419815EbdD3F325dA54Ae166437DdBd7F3416c
 ```
 
 Deploying these contracts required no code modifications, and can be deployed using remix and following the [Ethereum Contract on Dusty Network tutorial](https://docs.plasmnet.io/build/smart-contracts/ethereum-virtual-machine/ethereum-contract-on-dusty-network).
