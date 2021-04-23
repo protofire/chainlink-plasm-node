@@ -1,5 +1,9 @@
 # Chainlink Plasm Development Node	
 
+<p align="center">
+  By <a href="https://protofire.io">Protofire</a>
+</p>
+
 This folder contains all files required to run a Chainlink Node for the Plasm Dusty Testnet. You will need `docker` and `docker-compose` 
 
 ## Contract Deployment
